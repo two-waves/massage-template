@@ -51,8 +51,8 @@ export default function AboutSection() {
         </div>
 
         {/* Two Column Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          <div className="relative">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
+          <div className="lg:col-span-3">
             {/* Image Slideshow */}
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img 
@@ -94,13 +94,22 @@ export default function AboutSection() {
             </div>
           </div>
           
-          <div className="space-y-6">
+          <div className="lg:col-span-2 space-y-8">
             <p className="text-lg text-sage-gray leading-relaxed">
               <strong className="text-deep-charcoal">Salamatee.</strong> Das bedeutet «Haus der Gesundheit und des Wohlbefindens». Ein Ort der Stille, Entspannung und Erholung inmitten der Metropole.
             </p>
+            
             <p className="text-lg text-sage-gray leading-relaxed">
               Genießen Sie Ihre Massage in angenehmen Räumlichkeiten und entspannen Sie in der Lounge bei einem Kännchen thailändischen Wellness-Tee und delikaten Überraschungen bei Salamatee in Berlin im Stadtteil <strong className="text-deep-charcoal">Charlottenburg</strong>.
             </p>
+            
+            <Button 
+              onClick={learnMore}
+              className="bg-transparent hover:bg-sage-gray/10 text-sage-gray border border-sage-gray font-normal py-3 px-6 rounded-full transition-all duration-300 inline-flex items-center gap-2"
+            >
+              Termin buchen
+              <ChevronRight className="w-4 h-4" />
+            </Button>
           </div>
         </div>
       </div>
