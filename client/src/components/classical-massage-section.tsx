@@ -4,8 +4,7 @@ const massageImage = new URL('../../../attached_assets/klassische massage.JPG', 
 
 export default function ClassicalMassageSection() {
   const bookMassage = () => {
-    // Handle booking logic
-    console.log('Massage booking clicked');
+    window.location.href = '/booking';
   };
 
   return (
@@ -14,7 +13,7 @@ export default function ClassicalMassageSection() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image */}
           <div className="order-2 lg:order-1">
-            <div className="aspect-square overflow-hidden">
+            <div className="aspect-square overflow-hidden max-w-lg mx-auto">
               <img 
                 src={massageImage}
                 alt="Klassische Massage"

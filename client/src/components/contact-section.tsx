@@ -28,7 +28,7 @@ export default function ContactSection() {
           {/* Content */}
           <div className="order-1 lg:order-2 space-y-8">
             <div>
-              <h3 className="font-playfair text-sm uppercase tracking-widest text-sage-gray mb-8">
+              <h3 className="font-playfair text-lg uppercase tracking-widest text-sage-gray mb-8">
                 KONTAKT
               </h3>
               <h2 className="font-playfair text-3xl lg:text-4xl font-light text-cream-white mb-8 leading-relaxed">

@@ -4,7 +4,7 @@ export default function PricesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h3 className="font-playfair text-sm uppercase tracking-widest text-sage-gray mb-8">
+          <h3 className="font-playfair text-lg uppercase tracking-widest text-sage-gray mb-8">
             PREISE
           </h3>
           <h2 className="font-playfair text-3xl lg:text-4xl font-light text-deep-charcoal leading-relaxed max-w-4xl mx-auto">

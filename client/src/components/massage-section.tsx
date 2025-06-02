@@ -3,7 +3,7 @@ export default function MassageSection() {
     <section className="py-24 bg-deep-charcoal">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Section Subtitle */}
-        <h3 className="font-playfair text-sm uppercase tracking-widest text-sage-gray mb-8">
+        <h3 className="font-playfair text-lg uppercase tracking-widest text-sage-gray mb-8">
           MASSAGE
         </h3>
         
