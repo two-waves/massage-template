@@ -20,14 +20,14 @@ const translations = {
     // Hero Section
     'hero.title': 'Salamatee',
     'hero.tagline': 'Entspannung für Körper und Geist',
-    'hero.description': 'Erleben Sie traditionelle Thai-Massage in einer Atmosphäre der Ruhe und des Wohlbefindens. Unsere erfahrenen Therapeuten bringen Ihnen authentische Entspannung nach Berlin.',
+    'hero.description': 'Erleben Sie klassische Massagen in einer Atmosphäre der Ruhe und des Wohlbefindens. Unsere erfahrenen Therapeuten bringen Ihnen authentische Entspannung nach Berlin.',
     'hero.bookButton': 'Massage buchen',
     'hero.servicesButton': 'Unsere Leistungen',
     
     // Services
     'services.title': 'Unsere Leistungen',
-    'services.description': 'Entdecken Sie unsere Auswahl an traditionellen Thai-Massagen und wellness Behandlungen, die Körper und Geist in perfekte Harmonie bringen.',
-    'services.traditional.name': 'Traditionelle Thai-Massage',
+    'services.description': 'Entdecken Sie unsere Auswahl an klassischen Massagen und wellness Behandlungen, die Körper und Geist in perfekte Harmonie bringen.',
+    'services.traditional.name': 'Klassische Massage',
     'services.traditional.description': 'Eine ganzheitliche Massage-Technik, die Akupressur, sanfte Dehnungen und meditative Entspannung vereint.',
     'services.traditional.price': 'Ab 80€',
     'services.aromatherapy.name': 'Aromatherapie-Massage',
@@ -40,7 +40,7 @@ const translations = {
     
     // About
     'about.title': 'Über Salamatee',
-    'about.description': 'Seit über 10 Jahren bringen wir die Kunst der traditionellen Thai-Massage nach Berlin Charlottenburg. Unsere erfahrenen Therapeuten sind in Thailand ausgebildet und verwenden authentische Techniken, um Ihnen eine Auszeit vom Alltag zu schenken.',
+    'about.description': 'Seit über 10 Jahren bringen wir die Kunst der klassischen Massage nach Berlin Charlottenburg. Unsere erfahrenen Therapeuten verwenden authentische Techniken, um Ihnen eine Auszeit vom Alltag zu schenken.',
     'about.philosophy': 'Bei Salamatee steht Ihr Wohlbefinden im Mittelpunkt. In ruhiger Atmosphäre finden Sie zurück zu innerer Balance und körperlicher Entspannung.',
     'about.learnMore': 'Mehr erfahren',
     
@@ -61,7 +61,7 @@ const translations = {
     'contact.map.placeholder': 'Interactive Map',
     
     // Footer
-    'footer.description': 'Ihr Premium Massagestudio in Berlin Charlottenburg. Traditionelle Thai-Massage für Körper und Geist.',
+    'footer.description': 'Ihr Premium Massagestudio in Berlin Charlottenburg. Klassische Massage für Körper und Geist.',
     'footer.links.title': 'Quick Links',
     'footer.links.services': 'Leistungen',
     'footer.links.about': 'Über uns',
@@ -82,14 +82,14 @@ const translations = {
     // Hero Section
     'hero.title': 'Salamatee',
     'hero.tagline': 'Relaxation for Body and Mind',
-    'hero.description': 'Experience traditional Thai massage in an atmosphere of tranquility and well-being. Our experienced therapists bring you authentic relaxation to Berlin.',
+    'hero.description': 'Experience classic massages in an atmosphere of tranquility and well-being. Our experienced therapists bring you authentic relaxation to Berlin.',
     'hero.bookButton': 'Book Massage',
     'hero.servicesButton': 'Our Services',
     
     // Services
     'services.title': 'Our Services',
-    'services.description': 'Discover our selection of traditional Thai massages and wellness treatments that bring body and mind into perfect harmony.',
-    'services.traditional.name': 'Traditional Thai Massage',
+    'services.description': 'Discover our selection of classic massages and wellness treatments that bring body and mind into perfect harmony.',
+    'services.traditional.name': 'Classic Massage',
     'services.traditional.description': 'A holistic massage technique that combines acupressure, gentle stretching and meditative relaxation.',
     'services.traditional.price': 'From €80',
     'services.aromatherapy.name': 'Aromatherapy Massage',
@@ -102,7 +102,7 @@ const translations = {
     
     // About
     'about.title': 'About Salamatee',
-    'about.description': 'For over 10 years, we have been bringing the art of traditional Thai massage to Berlin Charlottenburg. Our experienced therapists are trained in Thailand and use authentic techniques to give you a break from everyday life.',
+    'about.description': 'For over 10 years, we have been bringing the art of classic massage to Berlin Charlottenburg. Our experienced therapists use authentic techniques to give you a break from everyday life.',
     'about.philosophy': 'At Salamatee, your well-being is our focus. In a peaceful atmosphere, you will find your way back to inner balance and physical relaxation.',
     'about.learnMore': 'Learn More',
     
