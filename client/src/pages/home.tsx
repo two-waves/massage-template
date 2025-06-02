@@ -3,6 +3,7 @@ import HeroSection from '@/components/hero-section';
 import AboutSection from '@/components/about-section';
 import MassageSection from '@/components/massage-section';
 import ClassicalMassageSection from '@/components/classical-massage-section';
+import AromaoilMassageSection from '@/components/aromaoil-massage-section';
 import Footer from '@/components/footer';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <AboutSection />
       <MassageSection />
       <ClassicalMassageSection />
+      <AromaoilMassageSection />
       <Footer />
     </div>
   );
