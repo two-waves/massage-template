@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-import massageImage from '@assets/image_1748889324754.png';
+const massageImage = '/attached_assets/öl massage.jpg';
 
 export default function AromaoilMassageSection() {
   const bookMassage = () => {

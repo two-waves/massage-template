@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-import voucherImage from '@assets/image_1748890293447.png';
+const voucherImage = '/attached_assets/geschenkgutschein.jpg';
 
 export default function VoucherSection() {
   const buyVoucher = () => {
@@ -23,12 +23,12 @@ export default function VoucherSection() {
         </div>
 
         {/* Voucher Image */}
-        <div className="mb-12">
-          <div className="aspect-[3/2] overflow-hidden rounded-lg">
+        <div className="mb-12 flex justify-center">
+          <div className="w-2/3 max-w-md overflow-hidden rounded-lg">
             <img 
               src={voucherImage}
               alt="Massage Gutschein"
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function AboutSection() {
 
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      src: "/attached_assets/massage ambiente.jpg",
       alt: "Elegantes Massage-Studio mit warmer Atmosphäre"
     },
     {

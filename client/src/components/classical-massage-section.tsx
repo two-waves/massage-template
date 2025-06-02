@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-import massageImage from '@assets/image_1748889335830.png';
+const massageImage = '/attached_assets/klassische massage.JPG';
 
 export default function ClassicalMassageSection() {
   const bookMassage = () => {
