@@ -29,7 +29,7 @@ export default function HeroSection() {
       </div>
       
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-end h-full px-4 sm:px-6 lg:px-8 pb-32 sm:pb-40">
+      <div className="relative z-10 flex flex-col items-center justify-end h-full px-4 sm:px-6 lg:px-8 pb-16 sm:pb-20">
         <div className="transform -rotate-90 origin-center mb-32 sm:mb-40">
           <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-light text-cream-white tracking-widest">
             balance
