@@ -31,7 +31,7 @@ export default function Navigation() {
                 href="#services" 
                 className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-sm sm:text-base lg:text-lg"
               >
-                Thai Massage
+                Unsere Massagen
               </a>
               <a 
                 href="#contact" 

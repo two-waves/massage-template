@@ -13,8 +13,8 @@ export default function AboutSection() {
       alt: "Elegantes Massage-Studio mit warmer Atmosphäre"
     },
     {
-      src: new URL('../../../attached_assets/image_1748887602004.png', import.meta.url).href,
-      alt: "Entspannende Massage-Räumlichkeiten"
+      src: new URL('../../../attached_assets/Massagesitzung im SPA.jpg', import.meta.url).href,
+      alt: "Massagesitzung im SPA"
     }
   ];
 

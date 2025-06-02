@@ -52,15 +52,21 @@ export default function Booking() {
       
       {/* Hero Section for Booking */}
       <section className="py-20 bg-deep-charcoal">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        </div>
+      </section>
+
+      {/* Title Section */}
+      <div className="py-8 bg-warm-beige">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl lg:text-5xl font-light text-cream-white mb-6">
+          <h1 className="font-playfair text-2xl lg:text-3xl font-light text-deep-charcoal mb-3">
             Termin buchen
           </h1>
-          <p className="font-playfair text-xl text-cream-white/80 max-w-2xl mx-auto">
+          <p className="font-playfair text-base text-deep-charcoal/70 max-w-2xl mx-auto">
             Wählen Sie Ihre gewünschte Massage und buchen Sie Ihren persönlichen Termin
           </p>
         </div>
-      </section>
+      </div>
 
       {/* Booking Form */}
       <div className="py-12">
