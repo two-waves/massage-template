@@ -10,35 +10,35 @@ export default function AboutSection() {
   };
 
   return (
-    <section id="about" className="py-20 bg-cream-white">
+    <section id="about" className="py-20 bg-warm-beige">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="font-playfair text-3xl sm:text-4xl font-bold text-deep-charcoal mb-6">
-              {t('about.title')}
-            </h2>
-            <p className="text-lg text-sage-gray leading-relaxed mb-6">
-              {t('about.description')}
-            </p>
-            <p className="text-lg text-sage-gray leading-relaxed mb-8">
-              {t('about.philosophy')}
-            </p>
-            <Button 
-              onClick={learnMore}
-              className="bg-deep-charcoal hover:bg-deep-charcoal/90 text-cream-white font-semibold py-3 px-8 rounded-full transition-all duration-300"
-            >
-              {t('about.learnMore')}
-            </Button>
-          </div>
-          
+        {/* Section Header */}
+        <div className="text-center mb-16">
+          <h2 className="font-playfair text-sm uppercase tracking-widest text-sage-gray mb-8">
+            AMBIENTE
+          </h2>
+          <p className="font-playfair text-2xl sm:text-3xl lg:text-4xl font-light text-deep-charcoal leading-relaxed max-w-5xl mx-auto">
+            In gehobener Atmosphäre bieten wir Ihnen eine individuell an Ihre persönlichen Bedürfnisse angepasste klassische Massage zur Förderung der Selbstheilung, Immunstärkung, zur Stress- und Schmerzminderung.
+          </p>
+        </div>
+
+        {/* Two Column Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Peaceful spa interior with natural lighting" 
-              className="rounded-2xl shadow-2xl w-full h-auto"
+              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+              alt="Elegantes Massage-Studio mit warmer Atmosphäre" 
+              className="w-full h-auto rounded-lg shadow-lg"
             />
-            <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-muted-gold rounded-full opacity-20"></div>
-            <div className="absolute -top-6 -left-6 w-16 h-16 bg-sage-gray rounded-full opacity-30"></div>
+          </div>
+          
+          <div className="space-y-6">
+            <p className="text-lg text-sage-gray leading-relaxed">
+              <strong className="text-deep-charcoal">Salamatee.</strong> Das bedeutet «Haus der Gesundheit und des Wohlbefindens». Ein Ort der Stille, Entspannung und Erholung inmitten der Metropole.
+            </p>
+            <p className="text-lg text-sage-gray leading-relaxed">
+              Genießen Sie Ihre Massage in angenehmen Räumlichkeiten und entspannen Sie in der Lounge bei einem Kännchen thailändischen Wellness-Tee und delikaten Überraschungen bei Salamatee in Berlin im Stadtteil <strong className="text-deep-charcoal">Charlottenburg</strong>.
+            </p>
           </div>
         </div>
       </div>
