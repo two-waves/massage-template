@@ -9,45 +9,45 @@ export default function Navigation() {
       <nav className="absolute top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Menu Container */}
-          <div className="flex items-start space-x-8 sm:space-x-12">
+          <div className="flex items-center space-x-12 sm:space-x-16">
             {/* Logo */}
             <div className="flex-shrink-0">
               <img 
                 src={logoPath} 
                 alt="Salamatee Premium Massage Studio" 
-                className="h-20 w-20 sm:h-24 sm:w-24 lg:h-28 lg:w-28 filter brightness-0 invert"
+                className="h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48 filter brightness-0 invert"
               />
             </div>
             
             {/* Navigation */}
-            <div className="flex flex-col space-y-1 pt-2">
+            <div className="flex flex-col space-y-2">
               <a 
                 href="#services" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-sm sm:text-base lg:text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg lg:text-xl"
               >
                 Ambiente
               </a>
               <a 
                 href="#services" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-sm sm:text-base lg:text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg lg:text-xl"
               >
                 Thai Massage
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-sm sm:text-base lg:text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg lg:text-xl"
               >
                 Preise
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-sm sm:text-base lg:text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg lg:text-xl"
               >
                 Gutschein kaufen
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-sm sm:text-base lg:text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg lg:text-xl"
               >
                 Kontakt
               </a>
