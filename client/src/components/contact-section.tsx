@@ -18,7 +18,7 @@ export default function ContactSection() {
           <div className="order-2 lg:order-1">
             <div className="aspect-square overflow-hidden rounded-lg">
               <img 
-                src="/attached_assets/massage praxis außen.jpg"
+                src={new URL('../../../attached_assets/massage praxis außen.jpg', import.meta.url).href}
                 alt="Massagepraxis Anke Eichler Außenansicht"
                 className="w-full h-full object-cover"
               />

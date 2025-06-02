@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-const massageImage = '/attached_assets/klassische massage.JPG';
+const massageImage = new URL('../../../attached_assets/klassische massage.JPG', import.meta.url).href;
 
 export default function ClassicalMassageSection() {
   const bookMassage = () => {

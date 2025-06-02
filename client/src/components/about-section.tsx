@@ -9,7 +9,7 @@ export default function AboutSection() {
 
   const images = [
     {
-      src: "/attached_assets/massage ambiente.jpg",
+      src: new URL('../../../attached_assets/massage ambiente.jpg', import.meta.url).href,
       alt: "Elegantes Massage-Studio mit warmer Atmosphäre"
     },
     {

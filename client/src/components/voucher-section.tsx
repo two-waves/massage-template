@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
-const voucherImage = '/attached_assets/geschenkgutschein.jpg';
+const voucherImage = new URL('../../../attached_assets/geschenkgutschein.jpg', import.meta.url).href;
 
 export default function VoucherSection() {
   const buyVoucher = () => {
