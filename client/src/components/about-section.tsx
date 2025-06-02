@@ -1,8 +1,36 @@
 import { useLanguage } from '@/hooks/use-language';
 import { Button } from '@/components/ui/button';
+import { useState, useEffect } from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function AboutSection() {
   const { t } = useLanguage();
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  const images = [
+    {
+      src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      alt: "Elegantes Massage-Studio mit warmer Atmosphäre"
+    },
+    {
+      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      alt: "Entspannende Massage-Räumlichkeiten"
+    }
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % images.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + images.length) % images.length);
+  };
+
+  // Auto-slide every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000);
+    return () => clearInterval(interval);
+  }, []);
 
   const learnMore = () => {
     // Placeholder for navigation to about page
@@ -25,11 +53,45 @@ export default function AboutSection() {
         {/* Two Column Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="relative">
-            <img 
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-              alt="Elegantes Massage-Studio mit warmer Atmosphäre" 
-              className="w-full h-auto rounded-lg shadow-lg"
-            />
+            {/* Image Slideshow */}
+            <div className="relative overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src={images[currentSlide].src}
+                alt={images[currentSlide].alt}
+                className="w-full h-auto transition-opacity duration-500"
+              />
+              
+              {/* Navigation Buttons */}
+              <button
+                onClick={prevSlide}
+                className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black/20 hover:bg-black/40 text-white p-2 rounded-full transition-all duration-300"
+                aria-label="Vorheriges Bild"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              
+              <button
+                onClick={nextSlide}
+                className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black/20 hover:bg-black/40 text-white p-2 rounded-full transition-all duration-300"
+                aria-label="Nächstes Bild"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+              
+              {/* Slide Indicators */}
+              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                {images.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setCurrentSlide(index)}
+                    className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                      index === currentSlide ? 'bg-white' : 'bg-white/50'
+                    }`}
+                    aria-label={`Slide ${index + 1}`}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
           
           <div className="space-y-6">
