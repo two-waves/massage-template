@@ -14,10 +14,14 @@ export default function ContactSection() {
     <section id="contact" className="py-20 bg-deep-charcoal">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Image placeholder */}
+          {/* Image */}
           <div className="order-2 lg:order-1">
-            <div className="aspect-square bg-sage-gray/20 rounded-lg flex items-center justify-center">
-              <span className="text-cream-white font-playfair text-lg">Studio Bild</span>
+            <div className="aspect-square overflow-hidden rounded-lg">
+              <img 
+                src="/attached_assets/massage praxis außen.jpg"
+                alt="Massagepraxis Anke Eichler Außenansicht"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
