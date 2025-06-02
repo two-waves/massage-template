@@ -38,10 +38,10 @@ export default function AboutSection() {
   };
 
   return (
-    <section id="about" className="py-20 bg-warm-beige">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="about" className="py-20 bg-muted-gold">
+      <div className="max-w-7xl mx-auto pl-0 pr-4 sm:pr-6 lg:pr-8">
         {/* Section Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 px-4 sm:px-6 lg:px-8">
           <h2 className="font-playfair text-sm uppercase tracking-widest text-sage-gray mb-8">
             AMBIENTE
           </h2>
@@ -54,7 +54,7 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
           <div className="lg:col-span-3">
             {/* Image Slideshow */}
-            <div className="relative overflow-hidden rounded-lg shadow-lg">
+            <div className="relative overflow-hidden rounded-none shadow-lg">
               <img 
                 src={images[currentSlide].src}
                 alt={images[currentSlide].alt}
@@ -94,7 +94,7 @@ export default function AboutSection() {
             </div>
           </div>
           
-          <div className="lg:col-span-2 space-y-8">
+          <div className="lg:col-span-2 space-y-8 px-4 sm:px-6 lg:px-8">
             <p className="text-lg text-sage-gray leading-relaxed">
               <strong className="text-deep-charcoal">Salamatee.</strong> Das bedeutet «Haus der Gesundheit und des Wohlbefindens». Ein Ort der Stille, Entspannung und Erholung inmitten der Metropole.
             </p>
