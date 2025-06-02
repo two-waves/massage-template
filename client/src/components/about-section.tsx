@@ -93,21 +93,21 @@ export default function AboutSection() {
             </div>
           </div>
           
-          <div className="space-y-8 px-4 sm:px-6 lg:px-8 max-w-lg">
-            <p className="text-lg text-deep-charcoal leading-relaxed">
+          <div className="space-y-8 px-8 sm:px-12 lg:px-16 max-w-lg ml-8">
+            <p className="text-lg text-deep-charcoal leading-relaxed font-playfair">
               Ein Ort der Stille, Entspannung und Erholung inmitten der Metropole. Hier finden Sie Ihre persönliche Auszeit vom Alltag.
             </p>
             
-            <p className="text-lg text-deep-charcoal leading-relaxed">
+            <p className="text-lg text-deep-charcoal leading-relaxed font-playfair">
               Genießen Sie Ihre Massage in angenehmen Räumlichkeiten und entspannen Sie in der Lounge bei einem Kännchen Wellness-Tee und delikaten Überraschungen in Berlin im Stadtteil <strong className="text-deep-charcoal">Tempelhof</strong>.
             </p>
             
             <Button 
               onClick={learnMore}
-              className="bg-deep-charcoal hover:bg-deep-charcoal/90 text-cream-white font-semibold py-4 px-8 rounded-full transition-all duration-300 inline-flex items-center gap-2 shadow-lg"
+              className="bg-transparent hover:bg-sage-gray/10 text-sage-gray border border-sage-gray font-normal py-4 px-8 rounded-full transition-all duration-300 inline-flex items-center gap-2"
             >
               Termin buchen
-              <ChevronRight className="w-5 h-5" />
+              <ChevronRight className="w-4 h-4" />
             </Button>
           </div>
         </div>
