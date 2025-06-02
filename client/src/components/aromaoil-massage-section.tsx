@@ -57,7 +57,7 @@ export default function AromaoilMassageSection() {
 
           {/* Image */}
           <div className="order-2 lg:order-2">
-            <div className="aspect-square overflow-hidden">
+            <div className="aspect-square overflow-hidden max-w-lg mx-auto">
               <img 
                 src={massageImage}
                 alt="Aromaöl-Massage"

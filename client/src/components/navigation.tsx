@@ -58,7 +58,10 @@ export default function Navigation() {
           <div className="flex items-center space-x-4 pt-8 sm:pt-12 lg:pt-16">
             {/* Book Button */}
             <div className="hidden md:block">
-              <button className="bg-white bg-opacity-20 hover:bg-opacity-30 text-cream-white font-medium py-3 px-8 rounded-full transition-all duration-300 border border-cream-white border-opacity-30">
+              <button 
+                onClick={() => window.location.href = '/booking'}
+                className="bg-white bg-opacity-20 hover:bg-opacity-30 text-cream-white font-medium py-3 px-8 rounded-full transition-all duration-300 border border-cream-white border-opacity-30"
+              >
                 Massage buchen
               </button>
             </div>

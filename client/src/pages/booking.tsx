@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft, Calendar, Clock, User, Phone, Mail } from 'lucide-react';
-import { Link } from 'wouter';
+import { Calendar, Clock, User, Phone, Mail } from 'lucide-react';
+import Navigation from '@/components/navigation';
+import Footer from '@/components/footer';
 
 export default function Booking() {
   const [selectedService, setSelectedService] = useState('');
@@ -46,24 +47,20 @@ export default function Booking() {
   const selectedServiceData = services.find(s => s.id === selectedService);
 
   return (
-    <div className="min-h-screen bg-warm-beige">
-      {/* Header */}
-      <div className="bg-deep-charcoal py-8">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Link href="/">
-            <Button className="bg-transparent hover:bg-cream-white/10 text-cream-white border border-cream-white font-normal py-2 px-4 rounded-full mb-6 inline-flex items-center gap-2">
-              <ArrowLeft className="w-4 h-4" />
-              Zurück zur Homepage
-            </Button>
-          </Link>
-          <h1 className="font-playfair text-3xl lg:text-4xl font-light text-cream-white">
+    <div className="min-h-screen">
+      <Navigation />
+      
+      {/* Hero Section for Booking */}
+      <section className="py-20 bg-warm-beige">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="font-playfair text-4xl lg:text-5xl font-light text-deep-charcoal mb-6">
             Termin buchen
           </h1>
-          <p className="text-cream-white/80 font-playfair mt-4">
-            Wählen Sie Ihre gewünschte Massage und buchen Sie Ihren Termin
+          <p className="font-playfair text-xl text-deep-charcoal/80 max-w-2xl mx-auto">
+            Wählen Sie Ihre gewünschte Massage und buchen Sie Ihren persönlichen Termin
           </p>
         </div>
-      </div>
+      </section>
 
       {/* Booking Form */}
       <div className="py-12">
@@ -232,6 +229,8 @@ export default function Booking() {
           </form>
         </div>
       </div>
+      
+      <Footer />
     </div>
   );
 }
