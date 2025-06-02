@@ -93,7 +93,7 @@ export default function AboutSection() {
             </div>
           </div>
           
-          <div className="space-y-8 px-8 sm:px-12 lg:px-16 max-w-lg ml-8">
+          <div className="space-y-8 px-8 sm:px-12 lg:px-16 max-w-lg ml-8 mt-4">
             <p className="text-lg text-deep-charcoal leading-relaxed font-playfair">
               Ein Ort der Stille, Entspannung und Erholung inmitten der Metropole. Hier finden Sie Ihre persönliche Auszeit vom Alltag.
             </p>
