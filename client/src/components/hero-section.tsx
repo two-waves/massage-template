@@ -36,7 +36,7 @@ export default function HeroSection() {
               balance
             </h1>
           </div>
-          <p className="text-lg sm:text-xl lg:text-2xl text-cream-white text-opacity-90 font-bold max-w-3xl mx-auto leading-relaxed text-center">
+          <p className="text-lg sm:text-xl lg:text-2xl text-cream-white text-opacity-90 font-playfair font-bold max-w-3xl mx-auto leading-relaxed text-center">
             Erleben Sie unsere vielfältigen Massagen in einer Atmosphäre der Ruhe und des Wohlbefindens.
           </p>
         </div>
