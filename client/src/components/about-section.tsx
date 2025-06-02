@@ -13,7 +13,7 @@ export default function AboutSection() {
       alt: "Elegantes Massage-Studio mit warmer Atmosphäre"
     },
     {
-      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      src: new URL('../../../attached_assets/image_1748887602004.png', import.meta.url).href,
       alt: "Entspannende Massage-Räumlichkeiten"
     }
   ];
