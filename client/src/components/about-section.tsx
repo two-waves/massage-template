@@ -41,7 +41,7 @@ export default function AboutSection() {
       <div className="w-full">
         {/* Section Header */}
         <div className="text-center mb-16 px-4 sm:px-6 lg:px-8">
-          <h2 className="font-playfair text-base uppercase tracking-widest text-sage-gray mb-8">
+          <h2 className="font-playfair text-lg uppercase tracking-widest text-sage-gray mb-8">
             AMBIENTE
           </h2>
           <p className="font-playfair text-2xl sm:text-3xl lg:text-4xl font-light text-deep-charcoal leading-relaxed max-w-5xl mx-auto">
@@ -102,13 +102,15 @@ export default function AboutSection() {
               Genießen Sie Ihre Massage in angenehmen Räumlichkeiten und entspannen Sie in der Lounge bei einem Kännchen Wellness-Tee und delikaten Überraschungen in Berlin im Stadtteil <strong className="text-deep-charcoal">Tempelhof</strong>.
             </p>
             
-            <Button 
-              onClick={learnMore}
-              className="bg-transparent hover:bg-sage-gray/10 text-sage-gray border border-sage-gray font-normal py-4 px-8 rounded-full transition-all duration-300 inline-flex items-center gap-2"
-            >
-              Termin buchen
-              <ChevronRight className="w-4 h-4" />
-            </Button>
+            <div className="mt-6">
+              <Button 
+                onClick={learnMore}
+                className="bg-transparent hover:bg-sage-gray/10 text-sage-gray border border-sage-gray font-normal py-4 px-8 rounded-full transition-all duration-300 inline-flex items-center gap-2"
+              >
+                Termin buchen
+                <ChevronRight className="w-4 h-4" />
+              </Button>
+            </div>
           </div>
         </div>
       </div>
