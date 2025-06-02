@@ -51,7 +51,7 @@ export default function Booking() {
       <Navigation />
       
       {/* Hero Section for Booking */}
-      <section className="py-20 bg-deep-charcoal">
+      <section className="py-32 bg-deep-charcoal">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         </div>
       </section>
