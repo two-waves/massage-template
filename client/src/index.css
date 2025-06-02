@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 60 4.8% 95.9%;
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 60 4.8% 95.9%;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+
+  /* Custom Massage Studio Colors */
+  --warm-beige: 36 25% 94%; /* #F5F1EB */
+  --soft-taupe: 32 22% 76%; /* #D4C4B0 */
+  --sage-gray: 44 8% 65%; /* #A8A196 */
+  --cream-white: 40 17% 97%; /* #FAF8F5 */
+  --muted-gold: 51 73% 50%; /* #C9B037 */
+  --deep-charcoal: 0 0% 17%; /* #2C2C2C */
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-inter antialiased bg-background text-foreground;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+@layer utilities {
+  .bg-warm-beige {
+    background-color: hsl(var(--warm-beige));
+  }
+
+  .bg-soft-taupe {
+    background-color: hsl(var(--soft-taupe));
+  }
+
+  .bg-sage-gray {
+    background-color: hsl(var(--sage-gray));
+  }
+
+  .bg-cream-white {
+    background-color: hsl(var(--cream-white));
+  }
+
+  .bg-muted-gold {
+    background-color: hsl(var(--muted-gold));
+  }
+
+  .bg-deep-charcoal {
+    background-color: hsl(var(--deep-charcoal));
+  }
+
+  .text-warm-beige {
+    color: hsl(var(--warm-beige));
+  }
+
+  .text-soft-taupe {
+    color: hsl(var(--soft-taupe));
+  }
+
+  .text-sage-gray {
+    color: hsl(var(--sage-gray));
+  }
+
+  .text-cream-white {
+    color: hsl(var(--cream-white));
+  }
+
+  .text-muted-gold {
+    color: hsl(var(--muted-gold));
+  }
+
+  .text-deep-charcoal {
+    color: hsl(var(--deep-charcoal));
+  }
+
+  .border-warm-beige {
+    border-color: hsl(var(--warm-beige));
+  }
+
+  .border-soft-taupe {
+    border-color: hsl(var(--soft-taupe));
+  }
+
+  .border-sage-gray {
+    border-color: hsl(var(--sage-gray));
+  }
+
+  .border-cream-white {
+    border-color: hsl(var(--cream-white));
+  }
+
+  .border-muted-gold {
+    border-color: hsl(var(--muted-gold));
+  }
+
+  .border-deep-charcoal {
+    border-color: hsl(var(--deep-charcoal));
+  }
+
+  .bg-hero-gradient {
+    background: linear-gradient(135deg, rgba(245, 241, 235, 0.4) 0%, rgba(168, 161, 150, 0.3) 100%);
+  }
+}
