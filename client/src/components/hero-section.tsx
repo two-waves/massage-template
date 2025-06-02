@@ -28,15 +28,21 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-br from-deep-charcoal from-0% via-transparent via-50% to-sage-gray to-100% opacity-40"></div>
       </div>
       
+      {/* Vertical Text */}
+      <div className="absolute right-8 sm:right-12 lg:right-16 top-1/2 transform -translate-y-1/2 z-10">
+        <div className="transform -rotate-90 origin-center">
+          <h2 className="font-playfair text-2xl sm:text-3xl lg:text-4xl font-light text-cream-white tracking-widest">
+            balance
+          </h2>
+        </div>
+      </div>
+
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="font-playfair text-4xl sm:text-5xl lg:text-7xl font-bold text-cream-white leading-tight mb-4">
-            {t('hero.title')}
+          <h1 className="font-playfair text-4xl sm:text-5xl lg:text-7xl font-bold text-cream-white leading-tight mb-8">
+            Traditionelle Thai Massage in<br />Berlin Charlottenburg
           </h1>
-          <p className="text-xl sm:text-2xl lg:text-3xl text-cream-white font-light mb-8">
-            {t('hero.tagline')}
-          </p>
           <p className="text-lg sm:text-xl text-cream-white text-opacity-90 font-light max-w-2xl mx-auto leading-relaxed">
             {t('hero.description')}
           </p>
