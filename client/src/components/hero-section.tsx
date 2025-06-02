@@ -1,7 +1,7 @@
 import { useLanguage } from '@/hooks/use-language';
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImagePath from '@assets/massage hero.jpg';
+import heroImagePath from '@assets/massage hero2.jpg';
 
 export default function HeroSection() {
   const { t } = useLanguage();
