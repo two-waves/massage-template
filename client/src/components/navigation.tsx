@@ -9,7 +9,7 @@ export default function Navigation() {
       <nav className="absolute top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 py-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo and Menu Container */}
-          <div className="flex items-center space-x-12 sm:space-x-16">
+          <div className="flex items-center space-x-6 sm:space-x-8">
             {/* Logo */}
             <div className="flex-shrink-0">
               <img 
@@ -20,34 +20,34 @@ export default function Navigation() {
             </div>
             
             {/* Navigation */}
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col space-y-1">
               <a 
                 href="#services" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-base sm:text-lg lg:text-xl"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-sm sm:text-base lg:text-lg"
               >
                 Ambiente
               </a>
               <a 
                 href="#services" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-base sm:text-lg lg:text-xl"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-sm sm:text-base lg:text-lg"
               >
                 Thai Massage
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-base sm:text-lg lg:text-xl"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-sm sm:text-base lg:text-lg"
               >
                 Preise
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-base sm:text-lg lg:text-xl"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-sm sm:text-base lg:text-lg"
               >
                 Gutschein kaufen
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-base sm:text-lg lg:text-xl"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-light text-sm sm:text-base lg:text-lg"
               >
                 Kontakt
               </a>
