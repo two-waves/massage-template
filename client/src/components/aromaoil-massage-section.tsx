@@ -4,8 +4,7 @@ const massageImage = new URL('../../../attached_assets/öl massage.jpg', import.
 
 export default function AromaoilMassageSection() {
   const bookMassage = () => {
-    // Handle booking logic
-    console.log('Aromaöl Massage booking clicked');
+    window.location.href = '/booking';
   };
 
   return (

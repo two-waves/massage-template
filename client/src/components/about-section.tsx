@@ -33,7 +33,7 @@ export default function AboutSection() {
   }, []);
 
   const learnMore = () => {
-    console.log('Navigate to booking page');
+    window.location.href = '/booking';
   };
 
   return (
