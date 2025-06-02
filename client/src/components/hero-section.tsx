@@ -31,12 +31,12 @@ export default function HeroSection() {
       {/* Content */}
       <div className="absolute bottom-32 left-0 right-0 z-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center">
-          <div className="transform -rotate-90 origin-center mb-28">
+          <div className="transform -rotate-90 origin-center mb-32">
             <h1 className="font-playfair text-3xl sm:text-4xl lg:text-5xl font-light text-cream-white tracking-widest">
               balance
             </h1>
           </div>
-          <p className="text-xl sm:text-2xl lg:text-3xl text-cream-white text-opacity-90 font-playfair font-bold max-w-3xl mx-auto leading-relaxed text-center">
+          <p className="text-xl sm:text-2xl lg:text-3xl text-cream-white text-opacity-90 font-playfair font-bold max-w-3xl mx-auto leading-relaxed text-center tracking-wide">
             Erleben Sie unsere vielfältigen Massagen in einer Atmosphäre der Ruhe und des Wohlbefindens.
           </p>
         </div>
