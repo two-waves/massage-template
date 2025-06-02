@@ -12,11 +12,13 @@ export default function Navigation() {
           <div className="flex items-center space-x-6 sm:space-x-8">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <img 
-                src={logoPath} 
-                alt="Salamatee Premium Massage Studio" 
-                className="h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48 filter brightness-0 invert"
-              />
+              <a href="/">
+                <img 
+                  src={logoPath} 
+                  alt="Salamatee Premium Massage Studio" 
+                  className="h-32 w-32 sm:h-40 sm:w-40 lg:h-48 lg:w-48 filter brightness-0 invert cursor-pointer"
+                />
+              </a>
             </div>
             
             {/* Navigation */}
