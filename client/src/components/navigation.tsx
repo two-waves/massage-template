@@ -26,35 +26,35 @@ export default function Navigation() {
               />
             </div>
             
-            {/* Desktop Navigation */}
-            <div className="hidden lg:flex flex-col space-y-2">
+            {/* Navigation */}
+            <div className="flex flex-col space-y-2">
               <a 
                 href="#services" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg"
               >
                 Ambiente
               </a>
               <a 
                 href="#services" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg"
               >
                 Thai Massage
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg"
               >
                 Preise
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg"
               >
                 Gutschein kaufen
               </a>
               <a 
                 href="#contact" 
-                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-lg"
+                className="text-cream-white hover:text-muted-gold transition-colors duration-300 font-medium text-base sm:text-lg"
               >
                 Kontakt
               </a>
