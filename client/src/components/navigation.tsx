@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
     <>
       <nav className="absolute top-0 left-0 right-0 z-50 px-4 sm:px-6 lg:px-8 py-6">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-start justify-between">
           {/* Logo and Menu Container */}
           <div className="flex items-center space-x-6 sm:space-x-8">
             {/* Logo */}
@@ -55,7 +55,7 @@ export default function Navigation() {
           </div>
           
           {/* Right Side: Book Button & Language Switcher */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 pt-8 sm:pt-12 lg:pt-16">
             {/* Book Button */}
             <div className="hidden md:block">
               <button className="bg-white bg-opacity-20 hover:bg-opacity-30 text-cream-white font-medium py-3 px-8 rounded-full transition-all duration-300 border border-cream-white border-opacity-30">
